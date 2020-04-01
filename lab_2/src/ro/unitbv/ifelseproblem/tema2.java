@@ -19,21 +19,19 @@ for(int j=0;j<temperaturi.length;)
 			if(x<37.0) {
 				list1.add(x);
 				list3.add(j);
-				j++;
 			}
 			else {
 				list2.add(x);
 				list4.add(j);
-				j++;
 		}
-		
+		j++;
 		}
-		System.out.println("temperaturi mai mici de 37.0:\n");
+		System.out.println("Temperaturi sub 37.0:\n");
 		for(int i=0;i<list1.size();i++) 
 				System.out.println("id:" + list3.get(i) +" "+ list1.get(i));
 				
 				
-		System.out.println("\ntemperaturi mai mari de 37.0:\n");
+		System.out.println("\nTemperaturi peste 37.0:\n");
 		for(int i=0;i<list2.size();i++)
 			System.out.println("id:" + list4.get(i) +" "+ list2.get(i));
 			
