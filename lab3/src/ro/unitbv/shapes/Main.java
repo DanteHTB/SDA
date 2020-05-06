@@ -31,7 +31,7 @@ public class Main {
 			System.out.println(s.getHexFillColor());
 			
 			System.out.println();
-			s.draw();
+			s.Draw();
 			System.out.println();
 			
 		}	
